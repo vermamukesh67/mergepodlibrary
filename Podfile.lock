@@ -1,0 +1,16 @@
+PODS:
+  - Networking (1.0.0)
+
+DEPENDENCIES:
+  - Networking (from `MergedPods/Networking`)
+
+EXTERNAL SOURCES:
+  Networking:
+    :path: MergedPods/Networking
+
+SPEC CHECKSUMS:
+  Networking: eee2648ae93d3f4e2b7d5595f7da506d79241c09
+
+PODFILE CHECKSUM: 55fd5db23ca97188da2974435cca98dafb976c93
+
+COCOAPODS: 1.0.0

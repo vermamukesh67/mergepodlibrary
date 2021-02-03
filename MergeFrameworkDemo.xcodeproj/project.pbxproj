@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117F343D25CA8EFF004FC9C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F343C25CA8EFF004FC9C2 /* AppDelegate.swift */; };
+		117F343F25CA8EFF004FC9C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F343E25CA8EFF004FC9C2 /* SceneDelegate.swift */; };
+		117F344125CA8EFF004FC9C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F344025CA8EFF004FC9C2 /* ViewController.swift */; };
+		117F344425CA8EFF004FC9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117F344225CA8EFF004FC9C2 /* Main.storyboard */; };
+		117F344625CA8F0C004FC9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117F344525CA8F0C004FC9C2 /* Assets.xcassets */; };
+		117F344925CA8F0C004FC9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117F344725CA8F0C004FC9C2 /* LaunchScreen.storyboard */; };
+		117F345425CA8F0C004FC9C2 /* MergeFrameworkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F345325CA8F0C004FC9C2 /* MergeFrameworkDemoTests.swift */; };
+		117F345F25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F345E25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests.swift */; };
+		48C041DBAEFE0FC0F157C0BF /* Pods_MergeFrameworkDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB04F083EFA8CC50061E1D3 /* Pods_MergeFrameworkDemoTests.framework */; };
+		AA3B0A61A5E8912562F85D43 /* Pods_MergeFrameworkDemo_MergeFrameworkDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B24F915CAE0643791104A0 /* Pods_MergeFrameworkDemo_MergeFrameworkDemoUITests.framework */; };
+		E6A5E3EF56E466D102AC7F4F /* Pods_MergeFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516D56048AF67CCFED394404 /* Pods_MergeFrameworkDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		117F345025CA8F0C004FC9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117F343125CA8EFF004FC9C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117F343825CA8EFF004FC9C2;
+			remoteInfo = MergeFrameworkDemo;
+		};
+		117F345B25CA8F0D004FC9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117F343125CA8EFF004FC9C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117F343825CA8EFF004FC9C2;
+			remoteInfo = MergeFrameworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		117F343925CA8EFF004FC9C2 /* MergeFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		117F343C25CA8EFF004FC9C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		117F343E25CA8EFF004FC9C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		117F344025CA8EFF004FC9C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		117F344325CA8EFF004FC9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		117F344525CA8F0C004FC9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		117F344825CA8F0C004FC9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		117F344A25CA8F0C004FC9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117F344F25CA8F0C004FC9C2 /* MergeFrameworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeFrameworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		117F345325CA8F0C004FC9C2 /* MergeFrameworkDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeFrameworkDemoTests.swift; sourceTree = "<group>"; };
+		117F345525CA8F0D004FC9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117F345A25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeFrameworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		117F345E25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeFrameworkDemoUITests.swift; sourceTree = "<group>"; };
+		117F346025CA8F0D004FC9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE53CF3EBA21B6B8C17528E /* Pods-MergeFrameworkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeFrameworkDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MergeFrameworkDemoTests/Pods-MergeFrameworkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2EB2AB51ACFA4E1B49BC0628 /* Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests/Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F30853A099B83BBCA7849A4 /* Pods-MergeFrameworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeFrameworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MergeFrameworkDemo/Pods-MergeFrameworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		516D56048AF67CCFED394404 /* Pods_MergeFrameworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeFrameworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738E797350268340E0EA0483 /* Pods-MergeFrameworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeFrameworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MergeFrameworkDemo/Pods-MergeFrameworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		86F35276D0E86A0263726DC2 /* Pods-MergeFrameworkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeFrameworkDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MergeFrameworkDemoTests/Pods-MergeFrameworkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E94ED1591B1AEEF5E8B6CC /* Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests/Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8B24F915CAE0643791104A0 /* Pods_MergeFrameworkDemo_MergeFrameworkDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeFrameworkDemo_MergeFrameworkDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB04F083EFA8CC50061E1D3 /* Pods_MergeFrameworkDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeFrameworkDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		117F343625CA8EFF004FC9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A5E3EF56E466D102AC7F4F /* Pods_MergeFrameworkDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117F344C25CA8F0C004FC9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C041DBAEFE0FC0F157C0BF /* Pods_MergeFrameworkDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117F345725CA8F0D004FC9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3B0A61A5E8912562F85D43 /* Pods_MergeFrameworkDemo_MergeFrameworkDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117F343025CA8EFF004FC9C2 = {
+			isa = PBXGroup;
+			children = (
+				117F343B25CA8EFF004FC9C2 /* MergeFrameworkDemo */,
+				117F345225CA8F0C004FC9C2 /* MergeFrameworkDemoTests */,
+				117F345D25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests */,
+				117F343A25CA8EFF004FC9C2 /* Products */,
+				E49050E1EEA4FF3F3D7DFC3A /* Pods */,
+				D8EB2BC81BC7CF34A469B66A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		117F343A25CA8EFF004FC9C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				117F343925CA8EFF004FC9C2 /* MergeFrameworkDemo.app */,
+				117F344F25CA8F0C004FC9C2 /* MergeFrameworkDemoTests.xctest */,
+				117F345A25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		117F343B25CA8EFF004FC9C2 /* MergeFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				117F343C25CA8EFF004FC9C2 /* AppDelegate.swift */,
+				117F343E25CA8EFF004FC9C2 /* SceneDelegate.swift */,
+				117F344025CA8EFF004FC9C2 /* ViewController.swift */,
+				117F344225CA8EFF004FC9C2 /* Main.storyboard */,
+				117F344525CA8F0C004FC9C2 /* Assets.xcassets */,
+				117F344725CA8F0C004FC9C2 /* LaunchScreen.storyboard */,
+				117F344A25CA8F0C004FC9C2 /* Info.plist */,
+			);
+			path = MergeFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		117F345225CA8F0C004FC9C2 /* MergeFrameworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				117F345325CA8F0C004FC9C2 /* MergeFrameworkDemoTests.swift */,
+				117F345525CA8F0D004FC9C2 /* Info.plist */,
+			);
+			path = MergeFrameworkDemoTests;
+			sourceTree = "<group>";
+		};
+		117F345D25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				117F345E25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests.swift */,
+				117F346025CA8F0D004FC9C2 /* Info.plist */,
+			);
+			path = MergeFrameworkDemoUITests;
+			sourceTree = "<group>";
+		};
+		D8EB2BC81BC7CF34A469B66A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				516D56048AF67CCFED394404 /* Pods_MergeFrameworkDemo.framework */,
+				D8B24F915CAE0643791104A0 /* Pods_MergeFrameworkDemo_MergeFrameworkDemoUITests.framework */,
+				FBB04F083EFA8CC50061E1D3 /* Pods_MergeFrameworkDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E49050E1EEA4FF3F3D7DFC3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				738E797350268340E0EA0483 /* Pods-MergeFrameworkDemo.debug.xcconfig */,
+				3F30853A099B83BBCA7849A4 /* Pods-MergeFrameworkDemo.release.xcconfig */,
+				2EB2AB51ACFA4E1B49BC0628 /* Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.debug.xcconfig */,
+				D7E94ED1591B1AEEF5E8B6CC /* Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.release.xcconfig */,
+				86F35276D0E86A0263726DC2 /* Pods-MergeFrameworkDemoTests.debug.xcconfig */,
+				1DE53CF3EBA21B6B8C17528E /* Pods-MergeFrameworkDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		117F343825CA8EFF004FC9C2 /* MergeFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117F346325CA8F0D004FC9C2 /* Build configuration list for PBXNativeTarget "MergeFrameworkDemo" */;
+			buildPhases = (
+				F72CCA63F6FAB95D63DEF6E6 /* 📦 Check Pods Manifest.lock */,
+				117F343525CA8EFF004FC9C2 /* Sources */,
+				117F343625CA8EFF004FC9C2 /* Frameworks */,
+				117F343725CA8EFF004FC9C2 /* Resources */,
+				735A696902F47C0B2BECA8AE /* 📦 Embed Pods Frameworks */,
+				D11C9BF75B0354B4242D0188 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeFrameworkDemo;
+			productName = MergeFrameworkDemo;
+			productReference = 117F343925CA8EFF004FC9C2 /* MergeFrameworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		117F344E25CA8F0C004FC9C2 /* MergeFrameworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117F346625CA8F0D004FC9C2 /* Build configuration list for PBXNativeTarget "MergeFrameworkDemoTests" */;
+			buildPhases = (
+				FDF387DB38D6CEEA2EF315E3 /* 📦 Check Pods Manifest.lock */,
+				117F344B25CA8F0C004FC9C2 /* Sources */,
+				117F344C25CA8F0C004FC9C2 /* Frameworks */,
+				117F344D25CA8F0C004FC9C2 /* Resources */,
+				BC3586200486A28D634164A3 /* 📦 Embed Pods Frameworks */,
+				888E443D8DF18874D6D98A3A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				117F345125CA8F0C004FC9C2 /* PBXTargetDependency */,
+			);
+			name = MergeFrameworkDemoTests;
+			productName = MergeFrameworkDemoTests;
+			productReference = 117F344F25CA8F0C004FC9C2 /* MergeFrameworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		117F345925CA8F0D004FC9C2 /* MergeFrameworkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117F346925CA8F0D004FC9C2 /* Build configuration list for PBXNativeTarget "MergeFrameworkDemoUITests" */;
+			buildPhases = (
+				A2BA587E7AC0DCDCA8A6C24C /* 📦 Check Pods Manifest.lock */,
+				117F345625CA8F0D004FC9C2 /* Sources */,
+				117F345725CA8F0D004FC9C2 /* Frameworks */,
+				117F345825CA8F0D004FC9C2 /* Resources */,
+				FF3D4B297B761FB784A8C22B /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				117F345C25CA8F0D004FC9C2 /* PBXTargetDependency */,
+			);
+			name = MergeFrameworkDemoUITests;
+			productName = MergeFrameworkDemoUITests;
+			productReference = 117F345A25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		117F343125CA8EFF004FC9C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					117F343825CA8EFF004FC9C2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					117F344E25CA8F0C004FC9C2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 117F343825CA8EFF004FC9C2;
+					};
+					117F345925CA8F0D004FC9C2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 117F343825CA8EFF004FC9C2;
+					};
+				};
+			};
+			buildConfigurationList = 117F343425CA8EFF004FC9C2 /* Build configuration list for PBXProject "MergeFrameworkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 117F343025CA8EFF004FC9C2;
+			productRefGroup = 117F343A25CA8EFF004FC9C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				117F343825CA8EFF004FC9C2 /* MergeFrameworkDemo */,
+				117F344E25CA8F0C004FC9C2 /* MergeFrameworkDemoTests */,
+				117F345925CA8F0D004FC9C2 /* MergeFrameworkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		117F343725CA8EFF004FC9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117F344925CA8F0C004FC9C2 /* LaunchScreen.storyboard in Resources */,
+				117F344625CA8F0C004FC9C2 /* Assets.xcassets in Resources */,
+				117F344425CA8EFF004FC9C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117F344D25CA8F0C004FC9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117F345825CA8F0D004FC9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		735A696902F47C0B2BECA8AE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeFrameworkDemo/Pods-MergeFrameworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888E443D8DF18874D6D98A3A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeFrameworkDemoTests/Pods-MergeFrameworkDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2BA587E7AC0DCDCA8A6C24C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC3586200486A28D634164A3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeFrameworkDemoTests/Pods-MergeFrameworkDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11C9BF75B0354B4242D0188 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeFrameworkDemo/Pods-MergeFrameworkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72CCA63F6FAB95D63DEF6E6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF387DB38D6CEEA2EF315E3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3D4B297B761FB784A8C22B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests/Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		117F343525CA8EFF004FC9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117F344125CA8EFF004FC9C2 /* ViewController.swift in Sources */,
+				117F343D25CA8EFF004FC9C2 /* AppDelegate.swift in Sources */,
+				117F343F25CA8EFF004FC9C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117F344B25CA8F0C004FC9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117F345425CA8F0C004FC9C2 /* MergeFrameworkDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117F345625CA8F0D004FC9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117F345F25CA8F0D004FC9C2 /* MergeFrameworkDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		117F345125CA8F0C004FC9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117F343825CA8EFF004FC9C2 /* MergeFrameworkDemo */;
+			targetProxy = 117F345025CA8F0C004FC9C2 /* PBXContainerItemProxy */;
+		};
+		117F345C25CA8F0D004FC9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117F343825CA8EFF004FC9C2 /* MergeFrameworkDemo */;
+			targetProxy = 117F345B25CA8F0D004FC9C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		117F344225CA8EFF004FC9C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				117F344325CA8EFF004FC9C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		117F344725CA8F0C004FC9C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				117F344825CA8F0C004FC9C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		117F346125CA8F0D004FC9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		117F346225CA8F0D004FC9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		117F346425CA8F0D004FC9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738E797350268340E0EA0483 /* Pods-MergeFrameworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNTJZJWJQC;
+				INFOPLIST_FILE = MergeFrameworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukesh.MergeFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		117F346525CA8F0D004FC9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F30853A099B83BBCA7849A4 /* Pods-MergeFrameworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNTJZJWJQC;
+				INFOPLIST_FILE = MergeFrameworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukesh.MergeFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		117F346725CA8F0D004FC9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F35276D0E86A0263726DC2 /* Pods-MergeFrameworkDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNTJZJWJQC;
+				INFOPLIST_FILE = MergeFrameworkDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukesh.MergeFrameworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MergeFrameworkDemo.app/MergeFrameworkDemo";
+			};
+			name = Debug;
+		};
+		117F346825CA8F0D004FC9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE53CF3EBA21B6B8C17528E /* Pods-MergeFrameworkDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNTJZJWJQC;
+				INFOPLIST_FILE = MergeFrameworkDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukesh.MergeFrameworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MergeFrameworkDemo.app/MergeFrameworkDemo";
+			};
+			name = Release;
+		};
+		117F346A25CA8F0D004FC9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB2AB51ACFA4E1B49BC0628 /* Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNTJZJWJQC;
+				INFOPLIST_FILE = MergeFrameworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukesh.MergeFrameworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MergeFrameworkDemo;
+			};
+			name = Debug;
+		};
+		117F346B25CA8F0D004FC9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E94ED1591B1AEEF5E8B6CC /* Pods-MergeFrameworkDemo-MergeFrameworkDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNTJZJWJQC;
+				INFOPLIST_FILE = MergeFrameworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mukesh.MergeFrameworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MergeFrameworkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		117F343425CA8EFF004FC9C2 /* Build configuration list for PBXProject "MergeFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117F346125CA8F0D004FC9C2 /* Debug */,
+				117F346225CA8F0D004FC9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117F346325CA8F0D004FC9C2 /* Build configuration list for PBXNativeTarget "MergeFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117F346425CA8F0D004FC9C2 /* Debug */,
+				117F346525CA8F0D004FC9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117F346625CA8F0D004FC9C2 /* Build configuration list for PBXNativeTarget "MergeFrameworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117F346725CA8F0D004FC9C2 /* Debug */,
+				117F346825CA8F0D004FC9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117F346925CA8F0D004FC9C2 /* Build configuration list for PBXNativeTarget "MergeFrameworkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117F346A25CA8F0D004FC9C2 /* Debug */,
+				117F346B25CA8F0D004FC9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 117F343125CA8EFF004FC9C2 /* Project object */;
+}
